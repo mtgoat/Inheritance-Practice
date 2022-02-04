@@ -18,9 +18,24 @@ namespace Garage
             Cessna mx410 = new Cessna ();
 
             fxs.Drive();
+            fxs.Turn();
+            fxs.Stop();
+
             fx.Drive();
+            fx.Turn();
+            fx.Stop();
+
             modelS.Drive();
+            modelS.Turn("squels around a right turn.");
+            modelS.Stop("silently stops as if it never moved");
+
+            silver.Drive();
+            silver.Turn();
+            silver.Stop();
+
             mx410.Drive();
+            mx410.Turn();
+            mx410.Stop();
 
             List<Zero> electricVehicles = new List<Zero> (){fx, fxs}; 
             

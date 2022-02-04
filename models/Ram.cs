@@ -15,7 +15,7 @@ public class Ram: Vehicle  // Gas powered truck
 
     public override void Drive()
     {
-        Console.WriteLine($"The{MainColor} Ram growls by you. Rrrrrrruuuummmmmmbbbble!");
+        Console.WriteLine($"The {MainColor} Ram growls by you. Rrrrrrruuuummmmmmbbbble!");
     }
 }
 }

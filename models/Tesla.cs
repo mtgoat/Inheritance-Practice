@@ -18,6 +18,17 @@ public class Tesla : Vehicle  // Electric car
     {
         Console.WriteLine($"The {MainColor} Tesla blazes by you. MMmmmmmmmmmm!");
     }
+
+        public override void Turn (string direction)
+    {
+        Console.WriteLine($"The {MainColor} Tesla {direction}. \n");
+    }
+
+        public override void Stop (string direction)
+    {
+        Console.WriteLine($"The {MainColor} Tesla {direction}.");
+    }
+
 }
 
 
